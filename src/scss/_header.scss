@@ -1,0 +1,115 @@
+.header {
+  max-width: 1440px;
+  position: relative;
+
+  .header__baner {
+    max-height: 1086px;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
+.header__content {
+  width: 665px;
+  position: absolute;
+  top: 120px;
+  left: 135px;
+}
+.header__title {
+  font-size: 202.2px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: $whff;
+  margin-left: -9px;
+  .header__title_yellow {
+    color: $eylffc;
+    text-transform: uppercase;
+  }
+}
+
+.header__text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.2;
+
+  margin-top: -30px;
+  margin-bottom: 30px;
+  .header__text_yellow {
+    color: #ffc600;
+    text-transform: uppercase;
+  }
+}
+
+.header__download {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffc600;
+}
+
+/*  второе фото хедера   */
+
+.aside {
+  min-width: 100%;
+  position: absolute;
+  bottom: 0;
+  .aside__img {
+    position: relative;
+    max-width: 1198px;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+.aside__content {
+  position: absolute;
+  top: 80px;
+  left: 133px;
+}
+
+.aside__title {
+  font-size: 60px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: $whff;
+  &_yellow {
+    color: $eylffc;
+  }
+}
+
+.aside__menu {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+
+  width: 355px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.menu__link {
+  transition: 0.5s;
+  color: $eylffc;
+  border-bottom: 2px solid rgba(255, 198, 0, 0);
+  &:first-letter {
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    transition: 0.5s;
+    color: $whff;
+    border-bottom: 2px solid rgba(255, 198, 0, 1);
+  }
+}

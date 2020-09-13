@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+  .process__text {
+    min-width: 120%;
+    // order: 1;
+    p {
+      max-width: 100%;
+    }
+  }
+  .process__img {
+    min-width: 100%;
+    order: 2;
+    img {
+      min-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+/* featured start */
+@media screen and (max-width: 767px) {
+  .featured__link {
+    font-size: 12px;
+  }
+  .featured__gallery-img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .featured__link {
+    font-size: 12px;
+  }
+  .featured__gallery-img {
+    width: 85%;
+  }
+}
