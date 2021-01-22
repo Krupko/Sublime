@@ -1,0 +1,118 @@
+/*  ? ---  media-services start --- */
+
+@media (max-width: 1025px) and (min-width: 993px) {
+   .services {
+      min-width: 1024px;
+   }
+   .services__img {
+      max-width: 100%;
+      // object-fit: cover;
+   }
+   .services__content {
+      max-width: 60%;
+      margin-right: 20px;
+   }
+   .services__content-block {
+      font-size: 14px;
+      h5 {
+         font-size: 20px;
+         margin-bottom: 10px;
+         margin-top: 40px;
+      }
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .services {
+      min-width: 100%;
+      background: linear-gradient(45deg, #47334f, #32415f);
+   }
+   .services__img {
+      display: none;
+   }
+   .services__wrapper {
+      justify-content: space-around;
+      top: 23px;
+      min-width: 991px;
+   }
+   .services__title {
+      padding-left: 0;
+      padding-top: 16px;
+   }
+   .services__content {
+      padding-top: 0;
+   }
+
+   .services__content-block {
+      h5 {
+         font-size: 18px;
+         margin-bottom: 20px;
+         margin-top: 26px;
+      }
+      p {
+         font-size: 14px;
+      }
+   }
+}
+
+@media (max-width: 769px) and (min-width: 482px) {
+   .services {
+      min-width: 100%;
+      padding-top: 35px;
+      background: linear-gradient(45deg, #47334f, #32415f);
+   }
+   .services__img {
+      display: none;
+   }
+   .services__wrapper {
+      min-width: 768px;
+      top: -1px;
+   }
+   .services__content-block {
+      font-size: 16px;
+      h5 {
+         font-size: 20px;
+         margin-top: 15px;
+         margin-bottom: 10px;
+      }
+   }
+}
+
+@media screen and (max-width: 481px) {
+   .services {
+      min-width: 479px;
+      min-height: 600px;
+      padding: 0;
+      background: linear-gradient(45deg, #47334f, #32415f);
+   }
+   .services__img {
+      display: none;
+   }
+   .services__wrapper {
+      min-width: 479px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+   }
+   .services__title {
+      min-height: 50px;
+   }
+   .services__content {
+      max-width: 95%;
+      margin: 0 auto;
+   }
+   .services__content-block {
+      font-size: 16px;
+      min-width: 100%;
+
+      h5 {
+         font-size: 20px;
+         margin-top: 15px;
+         margin-bottom: 10px;
+      }
+   }
+}
+
+/*  ? ---  media-services and --- */

@@ -1,11 +1,24 @@
-@media screen and (max-width: 480px) {
+/*  media process start  */
+@media screen and (max-width: 992px) {
+  .process {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 481px) {
   .process__text {
-    min-width: 120%;
-    // order: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 100%;
     p {
       max-width: 100%;
     }
   }
+  .process__wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .process__img {
     min-width: 100%;
     order: 2;
@@ -13,4 +26,12 @@
       min-width: 100%;
     }
   }
+  .process__content {
+    width: 100%;
+  }
+  .process__title {
+    text-align: center;
+  }
 }
+
+/*  media process and  */

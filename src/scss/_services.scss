@@ -1,24 +1,28 @@
+/*  ? ---  services start --- */
+
 .services {
   min-width: 1198px;
   min-height: 478px;
   position: relative;
   color: $whff;
-  padding-top: 55px;
+  padding-top: 124px;
 }
 .services__img {
   background-image: url("../img/services.jpg");
   background-repeat: no-repeat;
   background-position: top;
   overflow: hidden;
-  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
   height: 460px;
 }
 
 .services__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   position: absolute;
-  top: 72px;
+  top: 124px;
   min-width: 1030px;
 }
 .services__title {
@@ -34,7 +38,6 @@
   flex-wrap: wrap;
   max-width: 542px;
   padding-top: 15px;
-  // margin-left: 15px;
 }
 .services__content-block {
   font-size: 11px;
@@ -47,3 +50,5 @@
     margin-top: 77px;
   }
 }
+
+/*  ? ---  services  and --- */

@@ -43,7 +43,7 @@ main {
     display: block;
     width: 133px;
     height: 1px;
-    background-color: $gr71;
+    background-color: $c5;
     margin-left: 105px;
     margin-top: -7px;
   }
@@ -58,10 +58,10 @@ main {
 .text-it {
   font-family: $mpIt;
   font-size: 1em;
-
   color: $bl00;
 }
 .text-pro {
+  font-family: $mp;
   font-size: 14px;
   line-height: 1.2;
   color: $gr59;

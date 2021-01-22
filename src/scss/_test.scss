@@ -1,0 +1,83 @@
+/* ? ---  test start --- */
+.test {
+   background-color: $bl00;
+   display: flex;
+   flex-wrap: wrap;
+   color: $whff;
+   justify-content: space-between;
+}
+
+.test__text {
+   max-width: 50%;
+   margin: 41px 0 160px 50px;
+}
+
+.test__title {
+   &::after {
+      content: "";
+      display: block;
+      width: 85px;
+      height: 1px;
+      margin-left: 88px;
+   }
+}
+
+.test__content {
+   max-width: 30%;
+}
+
+.test__slogan {
+   margin-left: 45px;
+   line-height: 21px;
+   min-width: 100%;
+}
+
+.test__slogan--italics {
+   font-family: $mpIt;
+   font-size: 16px;
+   margin-top: 70px;
+   margin-bottom: 11px;
+}
+
+.test__slogan--normal {
+   font-family: $mp;
+   font-size: 14px;
+}
+
+.test__content {
+   margin-top: 92px;
+   margin-right: 267px;
+}
+
+.img__border {
+   min-width: 130px;
+   min-height: 130px;
+   border: 3px solid $e89;
+   border-radius: 50%;
+   overflow: hidden;
+   .test__avatar {
+      width: auto;
+      object-fit: cover;
+      object-position: center;
+   }
+}
+
+.test__signature {
+   margin-top: 20px;
+}
+
+.signature__text {
+   display: block;
+   display: flex;
+   justify-content: center;
+}
+
+.signature__text--name {
+   margin-top: 5px;
+}
+
+.signature__text--position {
+   margin-top: -10px;
+}
+
+/* ? ---  test and --- */

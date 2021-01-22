@@ -1,0 +1,63 @@
+/* ? ---  team start --- */
+.team {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 85px 70px 153px 50px;
+   justify-content: space-between;
+}
+
+.team__title {
+   &::after {
+      content: "";
+      display: block;
+      width: 85px;
+      height: 1px;
+      margin-left: 60px;
+   }
+}
+
+.team__staff {
+   min-width: 789px;
+   padding-left: 10px;
+}
+
+.staff__text-it {
+   max-width: 630px;
+   font-size: 20px;
+   padding-bottom: 14px;
+}
+
+.team__foto {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 782px;
+   padding-top: 27px;
+}
+
+.foto__text {
+   text-align: center;
+   margin-top: 16px;
+}
+
+.foto__developer {
+   img {
+      background-color: $bl1d;
+      min-width: 181px;
+      min-height: 186px;
+      object-fit: cover;
+      object-position: center;
+   }
+}
+
+.foto__text-name {
+   font-family: $mp;
+   line-height: 21px;
+}
+
+.foto__text-position {
+   font-family: $mpIt;
+   letter-spacing: 1.5px;
+}
+
+/* ? ---  team and --- */

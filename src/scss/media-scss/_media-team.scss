@@ -1,0 +1,35 @@
+/* ? ---  media team start --- */
+@media screen and (max-width: 1025px) {
+   .team {
+      padding: 85px 10px 85px 10px;
+   }
+}
+
+@media screen and (max-width: 769px) {
+   .team {
+      padding: 35px 10px 35px 10px;
+   }
+   .team__foto {
+      max-width: 750px;
+   }
+   .team__staff {
+      min-width: 100%;
+      padding: 0;
+   }
+   .staff__text-it {
+      font-size: 16px;
+      margin-top: 20px;
+   }
+}
+
+@media screen and (max-width: 481px) {
+   .team__title {
+      margin: 0 auto;
+   }
+
+   .foto__developer {
+      margin: 0 auto;
+   }
+}
+
+/* ? ---  media team and --- */
