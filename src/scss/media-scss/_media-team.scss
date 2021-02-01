@@ -25,6 +25,9 @@
 @media screen and (max-width: 481px) {
    .team__title {
       margin: 0 auto;
+      &:after {
+         display: none;
+      }
    }
 
    .foto__developer {

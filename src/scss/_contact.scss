@@ -1,0 +1,41 @@
+/*--? --- contact start ---*/
+.contact {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.contact__map {
+   min-width: 500px;
+   background-color: $d3;
+   background-image: url("../img/maps.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-position: center;
+   display: flex;
+   position: relative;
+}
+
+.map__label {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   border: 2px solid $f2aa;
+   background-color: $bl00;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+}
+
+.contact__form {
+   min-width: 698px;
+   background-color: $b2046;
+}
+.form__feedback {
+   display: flex;
+   flex-direction: column;
+}
+
+/*  остановился на точке локации   */
+
+/*--? --- contact and --- --*/
